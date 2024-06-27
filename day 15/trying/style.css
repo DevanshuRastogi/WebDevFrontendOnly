@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont_div{
+    border: 1px solid black;
+}
+.form_and_image{
+    margin:90px 30px;
+}
+.col_1{
+    padding:0 20px;
+}
+.form_data{
+    margin-bottom: 20px ;
+}
+
+/* .px-5{
+    padding: 90px ;
+
+} */
+.image_cont{
+    /* margin-top: 50px; */
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid blue;
+}
+.col_img{
+
+}
+.heading_contact {
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+.col_even {
+    border: 1px solid black;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    color: rgb(84, 80, 80);
+}
+.col_odd {
+    border: 1px solid black;
+    background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+
+.col_img{
+border: 1px solid red;
+height: 250px;
+
+}
+.col_img img{
+ object-fit: contain;
+}
+
