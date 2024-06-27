@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.MainCont{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+   width: 70%;
+   height: 450px;
+   margin: auto;
+   margin-top: 2px;
+   position: relative;
+   
+}
+.container{
+   margin: auto;
+   padding-top: 25px; 
+   margin-top: 2px;  
+    width: 75%;
+    clear: both;
+    
+}
+
+#overlayLeft i{
+    margin: 10px;
+    font-size: 45px;
+    color:white
+}
+#overlayLeft{
+    background-color: rgb(23, 193, 122,75%);
+    border-radius: 10px 0  0 10px;
+    margin-top: 0;
+    width: 40%;
+    color: whitesmoke;
+    height:396px;
+    float: left;
+    z-index: 1
+}
+.OvLeftContent h2{
+
+    margin-top:50%;
+    margin-left: 13%;
+    text-align: justify;
+
+}
+.OvLeftContent p{
+    margin-top: 10px;
+    margin-left: 22px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+#signIn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:20px ;
+    width: 70%;
+    height: 30px;
+    margin-left: 28px;
+    color: white;
+}
+
+
+#overlayRight{
+    background-color: rgba(188, 188, 188, 0.315);
+    
+    border-radius: 0 10px 10px 0;
+    width: 60%;
+    height:396px;
+    float:left;
+}
+.OvRightContent  {
+    margin-top: 45px;
+    text-align: center;
+}
+.OvRightContent h2{
+    margin-top: 12px;
+    font-size: 30px;
+}
+
+.IconOnly{
+     margin-top: 8px; 
+    width: 200px; 
+    margin-left: 24%;
+
+}
+
+.iconAll{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+}
+p{
+    margin-top: 20px;
+    font-size: 12px;;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.IconClass{
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid black;;
+    line-height: 40px;
+}
+
+i{
+    font-size: 20px;
+    color:black;
+}
+.FormClass{
+    margin-top: 3px;
+    width: 80%;
+    margin-left: 50px;
+}
+.inpMain{
+    position: relative;
+}
+.inpChild{
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* bottom: ; */
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+input[type=text]{
+    width:80%;
+    background: rgb(242, 242, 242);
+    border-radius: 12px 12px 12px 12px ;
+    border: 2px solid transparent;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type=email]{
+    width:80%;
+    background: rgb(242, 242, 242);
+    border: 2px solid transparent;
+    border-radius: 12px 12px 12px 12px ;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+input[type=password]{
+    width:80%;
+    background: rgb(242, 242, 242);
+    border: 2px solid transparent;
+    border-radius: 12px 12px 12px 12px ;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#signUp{
+    background-color: rgb(23, 193, 122);
+    color: white;
+    border: 1px solid rgb(23, 193, 122);
+    border-radius:20px ;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.container::before{
+ content: "";
+ position:absolute;
+ width:40% ;
+ height:50% ;
+ top: 0;
+ display: block;
+ right:0;
+ background-color: rgb(255, 17, 17,20%);
+ z-index: 1;
+ border-radius: 0 0 0 100%
+
+}
+.container::after{
+ content: "";
+ position:absolute;
+ width:20% ;
+ height:20% ;
+ bottom: 0;
+ display: block;
+ left:0;
+ background-color: rgba(255, 242, 1, 0.5 );
+ z-index: -1;
+ border-radius: 0 100% 0 0;
+
+}
+   
+ 
