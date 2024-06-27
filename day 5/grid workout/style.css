@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid_outer_container{
+    width:1000px;
+    border: 1px solid black;
+    display: grid;
+    margin:70px auto 50px;
+    grid-template-rows: 380px 380px ;
+    grid-template-columns: repeat(3,313.3px);
+    grid-gap: 20px 20px;
+    padding: 10px;
+}
+.card_container_1{
+    background-color: aqua;
+
+}
+.content_container{
+    color: white; 
+    text-align: left; 
+    padding:30px;
+}
+.card_container_2{
+background-color: black;
+}
+.card_container_3{
+background-color: red;
+}
+.card_container_4{
+background-color: green;
+}
+.card_container_5{
+    background-color: yellow;
+
+}
+.card_container_6{
+background-color: pink;
+}

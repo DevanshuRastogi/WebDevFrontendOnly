@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid_outer_container{
+    width: 100%;
+    background-color: black;
+    /* height: 100%; */
+    border: 4px solid black;
+    display: grid;
+    margin:2px auto 3px;
+    grid-template-rows: 300px 300px  ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10px 10px 10px 3px;
+}
+
+img{
+    border-radius: 10px;
+    margin: auto;
+    object-fit: cover;
+}
+.image_container{
+padding: 2px;
+  height: 140px;
+  margin: auto;
+  border-radius: 18px ;
+}
+.card_container_1{
+   background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+    border-radius: 20px ;
+}
+.card_container_1:hover{
+    box-shadow: 5px 5px 75px rgb(98, 0, 255);
+}
+.card_container_1:hover{
+    box-shadow: 5px 5px 75px rgb(98, 0, 255);
+
+}
+.card_container_2:hover{
+    box-shadow: 5px 5px 75px rgb(98, 0, 255);
+}
+.card_container_3:hover{
+    box-shadow: 5px 5px 75px rgb(98, 0, 255);
+}
+.card_container_4:hover{
+    box-shadow: 5px 5px 75px rgb(98, 0, 255);
+}
+.card_container_5:hover{
+    box-shadow: 5px 5px 75px rgb(98, 0, 255);
+}
+.card_container_6:hover{
+    box-shadow: 5px 5px 75px rgb(98, 0, 255);
+}
+
+.content_container{
+    color: white; 
+    text-align: left; 
+    padding:10px;
+    line-height: 1.5;
+
+}
+.cal_icon{
+    float: left;
+    margin-right: 10px;
+}
+.card_container_2{
+background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+ border-radius: 20px ;
+}
+p,a{
+    word-spacing: 2px;
+    font-size:10px;
+    text-decoration: none;
+    color: white;
+}
+h4{
+    margin-top: 10px;
+}
+.card_container_3{
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+border-radius: 20px ;
+}
+.card_container_4{
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+    border-radius: 20px ;
+}
+.card_container_5{
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+    border-radius: 20px ;
+
+}
+.card_container_6{
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+border-radius: 20px ;
+}
