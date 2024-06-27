@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topper{
+    /* background-color: rebeccapurple; */
+    height: 60px;
+}
+.grid_section{
+    padding: 20px 55px 55px 35px;
+}
+#grid_h1{
+    text-align: center;
+    font-family: Magzo Alt;
+    font-size: 40px;
+    color:  #1F1F1F;
+    margin: 15px;
+}
+#class_count{
+    margin-top: 62px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.grid_main_sec{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_card_all{
+    width: calc((100% - 60px) / 4);
+    display: inline-block;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    height: max-content;
+    
+}
+
+
+.image_container{
+    z-index: 10;
+    margin-bottom: 90px;
+   
+
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.content_container{
+    background-color: white;
+    width: 100%;
+    padding: 10px 10px 76px;
+    top:166px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 20px;
+}
+.content_container h4{
+    font-family: Magzo Alt;
+    font-weight: 600;
+    font-size: 28px;
+   
+}
+.content_container a{
+    color: #FF91AC;
+
+}
+.anchor_tag{
+    position: absolute;
+    bottom: 40px ;
+}
+.circle_arrow{
+    position: absolute;
+    background-color:#FF91AC;
+    width: 80px;
+    height: 80px;
+    z-index: 200;
+    bottom: -23px;
+    left: 190px;
+    border-radius: 50%;
+}
+
+.arrow-icon{
+    z-index: 300;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    bottom: 16px;
+    left: 213px;
+    rotate: 300deg;
+    transition: 0.8s;
+    /* animation: arrow_rotator 1s ease-in-out  infinite alternate-reverse ; */
+    
+}
+.arrow-icon:hover{
+    rotate: 180deg;
+}
+
+
+.free_button{
+    z-index: 300;
+    font-size: 10px;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    border: 1px solid #FF91AC;
+    padding: 2px 12px;
+    background-color: white;
+    color: #FF91AC;
+    border-radius: 35px;
+    text-decoration: none;
+    /* animation:  free-btn-animation 2s ease-in-out infinite alternate-reverse ; */
+
+    transition: 0.2s;
+}
+.free_button:hover{
+    background-color:#FF91AC;
+    color: white;
+
+}
+
+
+
+
+/* @keyframes free-btn-animation {
+    from{
+        background-color: #FF91AC;
+    color:black;
+    border-radius: 35px;
+    border: 1px solid black;
+
+    }
+    to{
+    border-radius: 35px;
+
+    }
+}
+@keyframes arrow_rotator {
+    from{
+        rotate: 180deg;
+
+    }
+    to{
+        rotate: 300deg;
+    }
+} */
